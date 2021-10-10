@@ -1,16 +1,3 @@
-// const { response } = require("express")
-
-// const { response } = require("express")
-
-
-// fetch('http://puzzle.mead.io/puzzle').then((response)=>{
-//     response.json().then((data)=>{
-//         console.log(data)
-//     })
-// })
-
-
-
 const searchForm = document.querySelector('form')
 const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
