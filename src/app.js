@@ -7,7 +7,7 @@ const { error } = require('console')
 
 
 const app = express()
-const port = process.argv.PORT
+const port = process.argv.PORT || 3000
 // Define path for Express config
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
